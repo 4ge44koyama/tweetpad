@@ -41,18 +41,23 @@ button {
 </style>
 
 <style scoped>
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  a {
-    display: block;
-    border-bottom: 1px solid #ccc;
-    padding: 20px;
-    color: inherit;
-    text-decoration: none;
-    text-align: left;
-    margin-bottom: 5px;
-  }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+a {
+  display: block;
+  padding: 20px;
+  color: inherit;
+  text-decoration: none;
+  text-align: left;
+  margin-bottom: 5px;
+}
 </style>

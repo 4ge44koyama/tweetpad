@@ -50,8 +50,9 @@ export default {
 
 <style scoped>
 .remove {
+  border: 1px solid #f33;
   background-color: transparent;
   color: #f33;
-  border: none;
+  margin-left: 4px;
 }
 </style>
